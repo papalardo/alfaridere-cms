@@ -1,0 +1,40 @@
+@media screen and (max-width: 39.9375em) {
+    .text-xs-left {
+      text-align: left !important;
+    }
+  
+    .text-xs-right {
+      text-align: right !important;
+    }
+  
+    .text-xs-center {
+      text-align: center !important;
+    }
+}
+
+/* Small only */
+@mixin sm {
+    @media screen and (max-width: 39.9375em) {
+      @content;
+    }
+}
+/* Medium only */
+@mixin md {
+    @media screen and (min-width: 40em) and (max-width: 63.9375em) {
+        @content;
+    }
+}
+
+/* Large only */
+@mixin lg-up {
+    @media screen and (min-width: 64em){
+        @content;
+    }
+}
+
+/* Large and up */
+@mixin xl {
+    @media screen and (min-width: 64em) {
+        @content;
+    }
+} 

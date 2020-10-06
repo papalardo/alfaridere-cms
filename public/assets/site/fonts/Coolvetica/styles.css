@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Coolvetica Compressed Rg';
+    src: url('CoolveticaCompressedRg-Regular.woff2') format('woff2'),
+        url('CoolveticaCompressedRg-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Coolvetica Rg';
+    src: url('CoolveticaRg-Regular.woff2') format('woff2'),
+        url('CoolveticaRg-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Coolvetica Rg';
+    src: url('CoolveticaRg-Italic.woff2') format('woff2'),
+        url('CoolveticaRg-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Coolvetica Condensed Rg';
+    src: url('CoolveticaCondensedRg-Regular.woff2') format('woff2'),
+        url('CoolveticaCondensedRg-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Coolvetica Crammed Rg';
+    src: url('CoolveticaCrammedRg-Regular.woff2') format('woff2'),
+        url('CoolveticaCrammedRg-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+

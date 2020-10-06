@@ -1,0 +1,106 @@
+#fp-nav { 
+    bottom: 4rem;
+    left: 3rem !important;
+    top: auto;
+}
+
+#fp-nav h2 { 
+    color: #fff;
+    font-size: 1.5rem;
+    font-family: 'Coolvetica Rg';
+}
+
+#fp-nav ul {
+    position: relative;
+    margin: 0;
+}
+
+#fp-nav ul::after  {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 5px;
+    width: 2px;
+    height: 100%;
+    background: #fff;
+    z-index: -1;
+}
+
+#fp-nav ul li:hover { border-radius: 0; }
+
+#fp-nav ul li a { 
+    color: #fff;
+}
+#fp-nav ul li a::after  {
+    content: '';
+    position: absolute;
+    top: 7px;
+    left: 0;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: transparent;
+    z-index: 2;
+    border: 2px solid #5CADE3;
+} 
+#fp-nav ul li a.active::after {
+    background: #5CADE3;
+}
+
+#fp-nav ul li a span { 
+    left: 0;
+    margin: 0;
+    background: transparent;
+}
+
+#fp-nav ul li, .fp-slidesNav ul li {
+    margin: 7px 0;
+    width: auto;
+    height: auto;
+    border-radius: 0;
+}
+
+#fp-nav ul li a.active .fp-sr-only { border-radius: 0; }
+#fp-nav ul li a .fp-sr-only { 
+    height: 100% !important;
+    width: 100% !important;
+    position: relative;
+    display: block;
+    padding-left: 2rem;
+    left: auto;
+    right: 0;
+    border-radius: 0;
+}
+#fp-nav ul li a.active span, #fp-nav ul li:hover a.active span, .fp-slidesNav ul li a.active span, .fp-slidesNav ul li:hover a.active span {
+    margin: 0;
+    transform: translateX(-7px);
+    border-radius: 0;
+}
+#fp-nav ul li a.active span, #fp-nav ul li:hover a.active span, .fp-slidesNav ul li a.active span, .fp-slidesNav ul li:hover a.active span { }
+#fp-nav ul li:hover a span, .fp-slidesNav ul li:hover a span {
+    margin: 0;
+    transform: translateX(-5px);
+}
+
+.fullpage__slideright #fp-nav h2 { 
+    text-align: right;
+}
+.fullpage__slideright #fp-nav {
+    left: auto !important;
+    right: 3rem;
+}
+.fullpage__slideright #fp-nav ul::after  {
+    left: auto;
+    right: 5px;
+}
+.fullpage__slideright #fp-nav ul li { 
+    text-align: right;
+}
+.fullpage__slideright #fp-nav ul li a::after { 
+    right: 0;
+    left: auto;
+}
+.fullpage__slideright  #fp-nav ul li a .fp-sr-only{ 
+    padding-left: auto;
+    padding-right: 2rem;
+}
