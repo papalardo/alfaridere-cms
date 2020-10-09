@@ -8,22 +8,22 @@ return [
     'pages' => [
         'title' => 'Páginas',
         'raw' => true,
-        'route' => '/pages/1/edit',
+        'route' => '/admin/pages/1/edit',
         'primary_navigation' => [
             'home_page' => [
                 'raw' => true,
                 'title' => 'Página inicial',
-                'route' => '/pages/1/edit'
+                'route' => '/admin/pages/1/edit'
             ],
             'treatment_specialized' => [
                 'raw' => true,
                 'title' => 'Tratamentos especializados',
-                'route' => '/pages/2/edit'
+                'route' => '/admin/pages/2/edit'
             ],
             'treatment_aesthetic' => [
                 'raw' => true,
                 'title' => 'Tratamentos estéticos',
-                'route' => '/pages/3/edit'
+                'route' => '/admin/pages/3/edit'
             ],
         ]
     ],
